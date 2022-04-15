@@ -1,6 +1,6 @@
 {
-    "name": "tutorial1",
-    "short_name": "tutorial1",
+    "name": "coiso",
+    "short_name": "coiso",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

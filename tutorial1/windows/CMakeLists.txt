@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.14)
-project(tutorial1 LANGUAGES CXX)
+project(coiso LANGUAGES CXX)
 
-set(BINARY_NAME "tutorial1")
+set(BINARY_NAME "coiso")
 
 cmake_policy(SET CMP0063 NEW)
 

@@ -1,7 +1,7 @@
 // ignore_for_file: prefer_const_constructors, avoid_print, use_key_in_widget_constructors, unnecessary_string_interpolations
 
 import 'package:flutter/material.dart';
-// import 'package:flutter/services.dart';
+import 'package:flutter/services.dart';
 
 void main() => runApp(MaterialApp(
       home: NinjaCard(),
@@ -97,9 +97,9 @@ class _NinjaCardState extends State<NinjaCard> {
             Row(
               children: <Widget>[
                 IconButton(
-                  onPressed:(){
-                        // Clipboard.setData(ClipboardData(text: email));
-                  }, 
+                  onPressed: () {
+                    Clipboard.setData(ClipboardData(text: email));
+                  },
                   icon: Icon(Icons.email, color: Colors.grey[400]),
                 ),
                 SizedBox(width: 10.0),
